@@ -88,6 +88,11 @@ function updateText(newText) {
 
     if (isMobileDevice()) {
         createLetters(` ⟩ ${newText} ⟩ ${newText}`, 124, 0, 'white' , 'forwards', 'set1');
+        createLetters(` ⟨ ${newText} ⟨ ${newText} ⟨ ${newText}`, 200, 0, 'white', 'backwards','set2');
+    }
+}
+
+
     } else {
         createLetters(` ⟩ ${newText} ⟩ ${newText}`, 124, 0, 'white' , 'forwards','set1');
         createLetters(` ⟨ ${newText} ⟨ ${newText} ⟨ ${newText}`, 200, 0, 'white', 'backwards','set2');
